@@ -1,5 +1,12 @@
 # University Page
 HTML CSS ile Okul Programı
+Google Takvim eklendi
+
+# Kullanılan Teknoloji ve Yrd. Kaynaklar
+- HTML
+- CSS
+- Google Fonts
+- Font Awesome
 
 # Ekran Görüntüleri ve Video
 

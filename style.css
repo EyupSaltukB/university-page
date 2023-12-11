@@ -1,0 +1,301 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+header i {
+  font-size: 30px;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  background-color: #242424;
+  color: rgb(200, 200, 200);
+  border-bottom: 1px solid white;
+}
+
+header input {
+  padding: 8px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  width: 300px;
+}
+
+header div button {
+  padding: 10px;
+  border-radius: 15px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+header div button:hover {
+  background-color: #989898;
+  transition: all 0.75s;
+  transform: scale(0.97);
+}
+
+.list-area {
+  height: 40px;
+  background-color: rgb(83, 80, 80);
+  padding: 10px;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid white;
+}
+
+.list-area img {
+  width: 80px;
+  height: 80px;
+  z-index: 99;
+  top: 65px;
+  position: absolute;
+}
+
+.list-area img:hover {
+  transform: scale(1.07);
+  transition: 0.6s;
+}
+
+.list-area li {
+  cursor: pointer;
+  height: 100%;
+}
+
+.list-area li:hover {
+  transform: scale(1.05);
+  transition: 0.4s;
+}
+
+.entry-sec {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  max-height: 550px;
+  position: relative;
+  padding: 1px;
+  border-bottom: 2px solid rgba(128, 128, 128, 0.52);
+}
+
+.entry-sec img {
+  object-fit: cover;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.entry-sec p {
+  color: black;
+  font-size: 50px;
+  background: #ffffffa2;
+  z-index: 99;
+  position: absolute;
+  bottom: 17px;
+  border-radius: 15px;
+  padding: 10px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.pano {
+  background-color: rgb(224, 224, 224);
+  display: flex;
+  justify-content: center;
+  margin-top: 1px;
+  margin-bottom: 10px;
+}
+
+.announcement {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.announcement p {
+  font-style: italic;
+}
+
+section ul li {
+  font-size: 20px;
+  margin-top: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 8px;
+  max-width: 200px;
+  padding-left: 30px;
+  font-family: "Rajdhani", sans-serif;
+}
+
+section ul li:hover {
+  border-bottom: 2px solid gray;
+  width: 150px;
+}
+
+.cards {
+  margin-left: 20px;
+  gap: 100px;
+  display: flex;
+  padding-left: 40px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 35px;
+}
+
+.card {
+  margin-top: 20px;
+  border-radius: 15px;
+  width: 350px;
+  height: 200px;
+  border: 2px solid black;
+  padding: 7px;
+}
+
+.card h4 {
+  background-color: green;
+  color: white;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+
+.card p:nth-child(3) {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Etkinlikler */
+
+.activity {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.activity h2 {
+  display: flex;
+  justify-content: center;
+}
+
+.activity p {
+  font-style: italic;
+}
+
+.plans {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+}
+
+.plans img {
+  width: 500px;
+  height: 400px;
+  border-radius: 10px;
+}
+
+/* Haberler  */
+
+.news {
+  background-color: rgb(224, 224, 224);
+  border-bottom: 1px solid black;
+}
+
+.new-head {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+}
+
+.new-head p {
+  font-style: italic;
+}
+
+.new {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.new img {
+  border-radius: 15px;
+  margin-bottom: 30px;
+}
+
+.new img:hover {
+  transform: scale(1.03);
+  transition: 0.5s;
+}
+
+/* Footer Alanı */
+
+footer {
+  display: flex;
+  background-color: #242424;
+  color: white;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+footer img{
+    margin: 10px;
+}
+footer h2{
+    margin: 5px;
+}
+
+footer .social{
+    cursor: pointer;
+}
+
+footer .social a:nth-child(1):hover{
+    color: blue;
+}
+
+footer .social a:nth-child(2):hover{
+    color: rgb(0, 251, 255);
+}
+
+footer .social a:nth-child(3):hover{
+    color: rgb(255, 0, 255);
+}
+
+footer .social a:nth-child(4):hover{
+    color: gray;
+}
+
+.footer-info{
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+    padding: 30px;
+    cursor: pointer;
+}
+
+.footer-info ul li:hover {
+    color: chartreuse;
+}
+
+footer p a{
+    color: aqua;
+}
